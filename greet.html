@@ -1,8 +1,41 @@
-<script src="greet_exercise.js"></script>
+<!DOCTYPE html>
+<!-- The above line specifies the document type as HTML5. It is the standard declaration for modern HTML documents. -->
 
-<h1>HTML page</h1>
+<html>
+<!-- The opening <html> tag indicates the beginning of an HTML document. -->
 
-<script>
-    var response = greet();
-    console.log(response);
-</script>
+<head>
+<!-- The <head> element is used to contain meta-information about the HTML document, such as the title, links to stylesheets, or scripts. -->
+
+    <title>HTML Page with Greeting</title>
+    <!-- The <title> element sets the title of the HTML document, which appears in the browser's title bar or tab. -->
+
+    <script src="greet_exercise.js"></script>
+    <!-- The <script> tag is used to include an external JavaScript file named "greet_exercise.js" in the HTML document. The contents of this file will be executed in this HTML page. -->
+
+</head>
+<!-- The </head> tag indicates the end of the head section. -->
+
+<body>
+<!-- The <body> element contains the content that will be displayed in the browser window. -->
+
+    <h1>HTML page</h1>
+    <!-- The <h1> element represents a top-level heading and displays the text "HTML page" in this case. -->
+
+    <script>
+    // JavaScript code block begins here.
+
+        // Calling the greet() function from the imported "greet_exercise.js" script and storing its result in the variable 'response'.
+        var response = greet();
+
+        // Printing the value of 'response' to the browser's console. This will show the result of the greet() function.
+        console.log(response);
+
+    // JavaScript code block ends here.
+    </script>
+
+</body>
+<!-- The </body> tag indicates the end of the body section. -->
+
+</html>
+<!-- The </html> tag indicates the end of the HTML document. -->
