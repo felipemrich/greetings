@@ -1,0 +1,43 @@
+.describe {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Styling for the test case description */
+.it {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Styling for the code blocks */
+.code {
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+  white-space: pre-wrap;
+}
+
+/* Styling for the function and method names */
+.function {
+  color: #007bff;
+}
+
+/* Styling for the variable names */
+.variable {
+  color: #28a745;
+}
+
+/* Styling for the string literals */
+.string {
+  color: #dc3545;
+}
+
+/* Styling for the comments */
+.comment {
+  color: #6c757d;
+  font-style: italic;
+}
